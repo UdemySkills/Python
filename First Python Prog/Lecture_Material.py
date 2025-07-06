@@ -17,3 +17,12 @@ print("Exponentiation : " + str(5**4))     #5*5*5*5
 print("Floor Division : " + str(16//5))    #Return the wholenumber of the division result and ignores the decimal
 print("Modulo : " + str(5%4))              #reminder of the division
 print("Python follows BODMAS")
+
+# Dealing with decimals in python
+print(1.23+2.80)    #Python has errors while using float or decimal types for aerthamatic operations. Solution avoid using float / decimal and use integers and perform workaround as belwo
+
+alternateToDecimals = (123 + 280) / 100 #using this approach instead of adding 1.23+2.80
+print("Alternate approach to use math op for decimals : " + str(alternateToDecimals))
+
+secondAlternate = (1.23 + 2.80) 
+print("Second Alternate approach to use math op for decimals : "+ str(round(secondAlternate,2)))
