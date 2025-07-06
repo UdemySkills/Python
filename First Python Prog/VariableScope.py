@@ -41,7 +41,6 @@ ChangeFruitName("Pear")
 ChangeFruitName("Mango")
 print(fruit)
 
-
 #Global Variables can be returned through functions.
 #Note : if the same name as global variable is declared in the function then there will be 2 declaration one at global level and another at local level
 globalVar = "hello world"
@@ -50,3 +49,4 @@ def returnGlobalVar():
     return globalVar
 
 print(returnGlobalVar())
+print(fruit)
