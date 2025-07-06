@@ -13,6 +13,7 @@ for char in word:
 print(countOfChars)
 
 
+
 #Range example
 
 oneInput = range(5)
@@ -28,3 +29,4 @@ for num in twoInputs:   #prints numbers from 5 to 10 range(start, end)
 threeInputs = range(1,20,3)
 for num in threeInputs:     #prints numbers from 1 to 20 incrementing by 3 range(start, end, incrementor / add this value to previous value)
     print(num)
+
